@@ -1,13 +1,10 @@
 import random
 from bender.decorators import respond
 
-class Quotes(object):
-
-    def initialize(self, brain):
-        pass
+class FuturamaQuotes(object):
 
     @respond(r'quote')
-    def hello(self, brain, msg, match):
+    def hello(self, msg):
         msg.reply(random.choice(QUOTES))
 
 
