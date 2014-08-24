@@ -1,4 +1,4 @@
 bender-futurama-quotes
 ======================
 
-Quotes from futurama
+Random quotes from futurama for [bender](https://github.com/bender-bot/bender).
