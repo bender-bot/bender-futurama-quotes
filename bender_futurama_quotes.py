@@ -1,11 +1,10 @@
 import random
 from bender.decorators import respond
 
-class FuturamaQuotes(object):
 
-    @respond(r'quote')
-    def hello(self, msg):
-        msg.reply(random.choice(QUOTES))
+@respond(r'quote')
+def quote_me(msg):
+    msg.reply(random.choice(QUOTES))
 
 
 # quotes taken from http://www.otd.com/~paul/Quote/futurama.html
