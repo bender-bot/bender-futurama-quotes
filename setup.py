@@ -3,7 +3,7 @@ from setuptools import setup
 classifiers = [
     'Development Status :: 2 - Pre-Alpha',
     'Intended Audience :: Developers',
-    'License :: OSI Approved :: MIT License',
+    'License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)',
     'Operating System :: POSIX',
     'Operating System :: Microsoft :: Windows',
     'Operating System :: MacOS :: MacOS X',
@@ -17,7 +17,7 @@ setup(
     description='bender-futurama-quotes: random quotes from futurama',
     version='0.1.0',
     url='https://github.com/bender-bot/bender-futurama-quotes',
-    license='MIT license',
+    license='LGPLv3',
     platforms=['unix', 'linux', 'osx', 'cygwin', 'win32'],
     author='Bruno Oliveira',
     author_email='nicoddemus@gmail.com',
