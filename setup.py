@@ -26,7 +26,7 @@ setup(
     py_modules=['bender_futurama_quotes'],
     entry_points={
         'bender_script': [
-            'futurama-quotes = bender_futurama_quotes:Quotes',
+            'futurama-quotes = bender_futurama_quotes',
         ],
     }
 )
