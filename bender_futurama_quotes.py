@@ -4,6 +4,9 @@ from bender.decorators import respond
 
 @respond(r'quote')
 def quote_me(msg):
+    """
+    Random quotes from futurama
+    """
     msg.reply(random.choice(QUOTES))
 
 
