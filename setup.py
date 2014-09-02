@@ -9,7 +9,7 @@ classifiers = [
     'Operating System :: MacOS :: MacOS X',
     'Topic :: Utilities',
 ]
-py_versions = ['2', '2.6', '2.7']
+py_versions = ['2', '2.6', '2.7', '3.4']
 classifiers += ['Programming Language :: Python :: %s' % x for x in py_versions]
 
 setup(
